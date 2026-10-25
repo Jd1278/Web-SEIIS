@@ -1,0 +1,27 @@
+name: Task
+description: Tarea técnica, infraestructura o documentación
+title: "chore: "
+labels: ["type:chore"]
+body:
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: Descripción
+    validations:
+      required: true
+  - type: textarea
+    id: criterios
+    attributes:
+      label: Criterios de aceptación
+      value: |
+        - [ ]
+        - [ ]
+    validations:
+      required: true
+  - type: dropdown
+    id: size
+    attributes:
+      label: Tamaño
+      options: ["S (≤1 día)", "M (≤3 días)", "L (partir)"]
+    validations:
+      required: true

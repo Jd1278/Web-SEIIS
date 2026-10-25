@@ -1,0 +1,43 @@
+name: Feature
+description: Nueva funcionalidad o mejora de UX
+title: "feat: "
+labels: ["type:feature"]
+body:
+  - type: input
+    id: issue-ref
+    attributes:
+      label: Issue / RF relacionado
+      placeholder: "RF-05, #42"
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: Descripción
+      description: Qué se necesita y por qué.
+    validations:
+      required: true
+  - type: textarea
+    id: criterios
+    attributes:
+      label: Criterios de aceptación
+      description: Lista verificable.
+      value: |
+        - [ ]
+        - [ ]
+    validations:
+      required: true
+  - type: checkboxes
+    id: a11y
+    attributes:
+      label: Accesibilidad
+      options:
+        - label: Navegable solo con teclado
+        - label: Foco visible
+        - label: Contraste verificado
+        - label: Lector de pantalla probado
+  - type: dropdown
+    id: size
+    attributes:
+      label: Tamaño
+      options: ["S (≤1 día)", "M (≤3 días)", "L (partir)"]
+    validations:
+      required: true

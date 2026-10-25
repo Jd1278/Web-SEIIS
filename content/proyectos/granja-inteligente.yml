@@ -1,0 +1,10 @@
+id: granja-inteligente
+titulo: Automatización del Riego en Agricultura Mediante Sensores de pH y Humedad
+linea: iot
+estado: terminado
+año: 2025
+resumen: Prototipo de granja inteligente con sensores de pH y humedad para automatizar el riego.
+autores:
+  - Edwin Aldemar Rueda Sierra
+  - Juan David Serrano Valencia
+enlace: http://repositorio.uts.edu.co:8080/xmlui/handle/123456789/20397

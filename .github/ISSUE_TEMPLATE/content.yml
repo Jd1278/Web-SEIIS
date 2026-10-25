@@ -1,0 +1,29 @@
+name: Content
+description: Contenido institucional (textos, fotos, noticias)
+title: "content: "
+labels: ["type:content", "status:needs-content"]
+body:
+  - type: input
+    id: seccion
+    attributes:
+      label: Sección del sitio
+      placeholder: "/lineas, /proyectos, /noticias"
+    validations:
+      required: true
+  - type: textarea
+    id: contenido
+    attributes:
+      label: Contenido propuesto
+    validations:
+      required: true
+  - type: input
+    id: responsable
+    attributes:
+      label: Responsable de aprobación
+      placeholder: "Líder del semillero"
+  - type: checkboxes
+    id: aprobado
+    attributes:
+      label: Estado
+      options:
+        - label: Contenido aprobado por el responsable

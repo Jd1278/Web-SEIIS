@@ -1,0 +1,11 @@
+id: arquitectura-diseno-software
+orden: 1
+nombre: Arquitectura y Diseño de Software
+grupo: GRIIS
+oficial: true
+resumen: Diseño, arquitectura y construcción de software empresarial, con énfasis en web, móvil, patrones y DevOps.
+temas:
+  - Diseño y desarrollo web y móvil
+  - Lenguajes y Frameworks
+  - DevOps
+  - Arquitectura y patrones de diseño de software

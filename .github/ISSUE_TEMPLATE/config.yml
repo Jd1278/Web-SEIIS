@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Pregunta general
+    url: https://github.com/Jd1278/Web-SEIIS/discussions
+    about: Usa Discussions para preguntas que no son issues.

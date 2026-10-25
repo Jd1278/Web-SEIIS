@@ -1,0 +1,10 @@
+id: iot
+orden: 2
+nombre: Internet de las Cosas — IoT
+grupo: GRIIS
+oficial: true
+resumen: Sensórica, automatización y prototipos de granjas inteligentes y sistemas embebidos.
+temas:
+  - Sensórica y actuadores
+  - Automatización de procesos
+  - Prototipos de granja inteligente

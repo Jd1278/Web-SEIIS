@@ -1,0 +1,10 @@
+# CODEOWNERS — revisores por área
+# Mientras no exista la org, apunta a personas.
+# Al migrar a la org, reemplazar por @seiis-uts/<equipo>.
+
+*                   @Jd1278
+/src/app/**          @Jd1278 @Mauricio-Khalifa
+/src/components/**   @Jd1278 @Mauricio-Khalifa
+/content/**         @Jd1278
+/docs/**            @Jd1278
+/.github/**         @Jd1278

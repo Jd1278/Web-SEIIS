@@ -1,0 +1,11 @@
+id: realidad-aumentada
+orden: 3
+nombre: Realidad Aumentada
+grupo: GRIIS
+oficial: true
+resumen: Aplicaciones de realidad aumentada, virtual y mixta en educación, entrenamiento y salud.
+temas:
+  - Realidad aumentada en la educación
+  - Realidad aumentada aplicada al entrenamiento
+  - Realidad aumentada en la salud
+  - Realidad Virtual, Mixta y Extendida
